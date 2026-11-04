@@ -1,0 +1,45 @@
+{
+  "source": "SEAMKin brändikäsikirja 2025/03",
+  "note": "Tints are computed (mix with white), not taken from the brand book. Logo colors are intentionally excluded.",
+  "color": {
+    "primary": {
+      "lila":      { "hex": "#542583", "rgb": [84, 37, 131],  "cmyk": [84, 100, 3, 1], "pantone": "PMS 267 C" },
+      "keltainen": { "hex": "#FFF023", "rgb": [255, 240, 35], "cmyk": [5, 0, 84, 0],   "pantone": "Pantone Process Yellow C" }
+    },
+    "tints": {
+      "lila":      { "75": "#7F5CA2", "50": "#AA92C1", "25": "#D4C8E0", "15": "#E5DEEC" },
+      "keltainen": { "75": "#FFF45A", "50": "#FFF891", "25": "#FFFBC8", "15": "#FFFDDE" }
+    },
+    "secondary": {
+      "vihrea":         { "hex": "#ACD195", "rgb": [172, 209, 149], "cmyk": [39, 0, 52, 0], "pantone": "PMS 359" },
+      "pinkki":         { "hex": "#E8A7C6", "rgb": [232, 167, 198], "cmyk": [7, 44, 4, 0],  "pantone": "PMS 210" },
+      "vaaleansininen": { "hex": "#C7E6F7", "rgb": [199, 230, 247], "cmyk": [26, 1, 2, 0], "pantone": "PMS P 115" }
+    },
+    "approvedTextPairs": [
+      { "text": "#FFFFFF", "background": "#542583", "contrast": 10.66 },
+      { "text": "#542583", "background": "#FFFFFF", "contrast": 10.66 },
+      { "text": "#000000", "background": "#FFF023", "contrast": 17.74 },
+      { "text": "#542583", "background": "#FFF023", "contrast": 9.01 },
+      { "text": "#542583", "background": "#D4C8E0", "contrast": 6.67 },
+      { "text": "#000000", "background": "#ACD195", "contrast": 12.31 },
+      { "text": "#000000", "background": "#E8A7C6", "contrast": 10.77 },
+      { "text": "#000000", "background": "#C7E6F7", "contrast": 16.09 }
+    ],
+    "forbiddenTextPairs": [
+      { "text": "#FFFFFF", "background": "#FFF023", "contrast": 1.18 },
+      { "text": "#FFFFFF", "background": "#C7E6F7", "contrast": 1.31 },
+      { "text": "#FFFFFF", "background": "#ACD195", "contrast": 1.71 },
+      { "text": "#FFFFFF", "background": "#E8A7C6", "contrast": 1.95 },
+      { "text": "#000000", "background": "#542583", "contrast": 1.97 }
+    ],
+    "chartSeries": ["#542583", "#FFF023", "#ACD195", "#E8A7C6", "#C7E6F7", "#AA92C1"]
+  },
+  "font": {
+    "marketing": ["Acumin Pro"],
+    "serif": ["Adobe Caslon Pro"],
+    "officeHeading": ["Alte DIN 1451 Mittelschrift"],
+    "officeBody": ["Arial"],
+    "webFallbackHeading": ["Barlow Condensed", "Arial Narrow", "sans-serif"],
+    "webFallbackBody": ["Arial", "Helvetica", "sans-serif"]
+  }
+}

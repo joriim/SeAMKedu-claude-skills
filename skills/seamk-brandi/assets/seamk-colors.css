@@ -1,0 +1,46 @@
+/* SEAMK-brändivärit — lähde: SEAMKin brändikäsikirja 2025/03.
+   Päävärit ja lisävärit virallisista RGB-arvoista; vaalennetut sävyt laskettu (sekoitus valkoiseen).
+   Tunnusvärejä (sininen, syaani, vihreä) ei ole tässä: ne kuuluvat vain logoon. */
+
+:root {
+  /* Päävärit */
+  --seamk-lila: #542583;          /* PMS 267 C · RGB 84,37,131 · CMYK 84,100,3,1 */
+  --seamk-lila-75: #7F5CA2;
+  --seamk-lila-50: #AA92C1;
+  --seamk-lila-25: #D4C8E0;
+  --seamk-lila-15: #E5DEEC;
+
+  --seamk-keltainen: #FFF023;     /* Pantone Process Yellow C · RGB 255,240,35 · CMYK 5,0,84,0 */
+  --seamk-keltainen-75: #FFF45A;
+  --seamk-keltainen-50: #FFF891;
+  --seamk-keltainen-25: #FFFBC8;
+  --seamk-keltainen-15: #FFFDDE;
+
+  /* Lisävärit — infografiikka, taulukot, kuviot */
+  --seamk-vihrea: #ACD195;        /* PMS 359 · RGB 172,209,149 · CMYK 39,0,52,0 */
+  --seamk-pinkki: #E8A7C6;        /* PMS 210 · RGB 232,167,198 · CMYK 7,44,4,0 */
+  --seamk-vaaleansininen: #C7E6F7;/* PMS P 115 · RGB 199,230,247 · CMYK 26,1,2,0 */
+
+  /* Neutraalit */
+  --seamk-musta: #000000;
+  --seamk-valkoinen: #FFFFFF;
+
+  /* Typografia (korvikkeet viimeisinä) */
+  --seamk-font-heading: "Alte DIN 1451 Mittelschrift", "Acumin Pro Condensed", "Barlow Condensed", "Arial Narrow", sans-serif;
+  --seamk-font-body: "Acumin Pro", Arial, Helvetica, sans-serif;
+  --seamk-font-office-body: Arial, Helvetica, sans-serif;
+  --seamk-font-serif: "Adobe Caslon Pro", "Libre Caslon Text", Georgia, serif;
+
+  /* Hyväksytyt teksti/tausta-parit */
+  --seamk-on-lila: #FFFFFF;
+  --seamk-on-keltainen: #000000;  /* tai --seamk-lila */
+  --seamk-on-lisavari: #000000;
+
+  /* Kaaviosarjat */
+  --seamk-series-1: var(--seamk-lila);
+  --seamk-series-2: var(--seamk-keltainen);
+  --seamk-series-3: var(--seamk-vihrea);
+  --seamk-series-4: var(--seamk-pinkki);
+  --seamk-series-5: var(--seamk-vaaleansininen);
+  --seamk-series-6: var(--seamk-lila-50);
+}
