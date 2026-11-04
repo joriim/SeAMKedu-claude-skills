@@ -7,6 +7,8 @@ Seinäjoen ammattikorkeakoulun (SEAMK) organisaatiolle tuotteistettuja Claude-sk
 | Skill | Kuvaus |
 |---|---|
 | [`seamk-brandi`](skills/seamk-brandi/SKILL.md) | SEAMKin brändikäsikirjan (2025/03) mukaiset värit, typografia, tunnuksen käyttö, äänensävy ja ydinviestit. |
+| [`saavutettavuus`](skills/saavutettavuus/SKILL.md) | Digipalvelulain ja EN 301 549 / WCAG 2.2 AA -vaatimukset SEAMKin ja hankkeiden materiaaleille (HTML, Word, PPT, PDF, video, some). |
+| [`zenodo`](skills/zenodo/SKILL.md) | TKI-tuotosten tallennus Zenodoon DOI:lla: julkaisukelpoisuus, metatiedot, lisenssit, rahoittajatiedot ja API-skripti (oletuksena sandbox). |
 
 ## Asennus
 
